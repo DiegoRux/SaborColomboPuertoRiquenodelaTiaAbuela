@@ -1,0 +1,374 @@
+.container{
+    width:90%;
+    max-width: 1000px;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family:Letra1;
+    src: url(Starborn.ttf);
+}
+
+h1{
+    font-family:Letra1;
+    font-size: 31px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgba(212, 23, 23, 0.922);
+}
+
+h2{
+    margin-top: -15px;
+    font-family:Letra1;
+    font-size: 22px;
+    color:white;   
+    text-shadow: 2px 2px 1.25px blue;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:blue;
+}
+
+.container1 {
+    background-image: url(IMG/fondo.png);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: initial;
+    text-shadow: 3.75px 2.5px 2.5px rgba(212, 23, 23, 0.922);
+    color: white;
+    padding: 25px;
+    font-size: 37.5px;
+    height: 200px;
+    border-radius: 3.75px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#imagen1{
+    width:100%;
+    max-width: 1000px;
+    margin:0 auto;
+    overflow:hidden;
+    margin-right: 200px;
+    width: 140px;
+    transform: translate(270%,-60%);
+}
+
+p{
+    letter-spacing: 0.5px;
+    font-size: 18.75px;
+    text-align: center;
+    color: black;
+}
+
+h3{
+    letter-spacing: 3px;
+    font-family:Letra1;
+    margin-top: 620px;
+    margin-left: 30px;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px blue;
+}
+
+h4{
+    letter-spacing: 1px;
+    font-family:Letra1;
+    font-size: 15px;
+    color:black;   
+    text-shadow: 0.5px 0.5px 0.5px blue;
+    margin-left: 16px;
+    transform:scaleY(1.5)    
+}
+
+.container2 {
+    background-image: url(IMG/fondo\ usa.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    color:white;
+    padding: 2.5px;
+    font-size: 30px;
+    border-radius: 3.75px;
+    height:365px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.container4{
+    background-image: url(IMG/fondo\ usa.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    color:white;
+    padding: 2.5px;
+    font-size: 30px;
+    border-radius: 3.75px;
+    height:365px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.imagen2{
+    margin-left: 80px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+    transition: .4s ease;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+.imagen3{
+    margin-left: 125px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.imagen4{
+    margin-left: 125px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.imagen5{
+    margin-left: 80px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.imagen6{
+    margin-left: 125px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.imagen7{
+    margin-left: 125px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.imagen8{
+    margin-left: 80px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.imagen9{
+    margin-left: 125px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.imagen10{
+    margin-left: 125px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.imagen11{
+    margin-left: 80px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.imagen12{
+    margin-left: 125px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.imagen13{
+    margin-left: 125px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.imagen14{
+    margin-left: 80px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.imagen15{
+    margin-left: 125px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.imagen16{
+    margin-left: 125px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.imagen17{
+    margin-left: 80px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.imagen18{
+    margin-left: 125px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.imagen19{
+    margin-left: 125px;
+    background-image:url(IMG/Fondo\ de\ comida.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.25px solid black;
+    border-radius: 3.75px;
+}
+
+.container3{
+    display:flex;
+    background-color:rgba(212, 23, 23, 0.922);
+    background-size:cover;  
+    padding: 25px;
+    font-size: 37.5px;
+    height: 375px;
+    border-radius: 3.75px;
+}
+
+.container3 img {
+    transform: scale(1,1);
+    transform: translate(-10%,-10%);
+}
+
+.container3 p{
+    margin-top: 60px;
+    margin-left: -100px;
+    letter-spacing: 0.5px;
+    font-size: 21px;
+    text-align: center;
+    color: black;
+    width: 100%;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#imagen20 {
+    margin-left: 5px;
+    width: 570px;
+    height: 450px;
+    transform: translate(-15%,-12%);
+}
+
+.whatsapp-button {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            font-size: 95px;
+            box-shadow: 0px 0x 2.5px rgba(0,0,0,0.2);
+           
+        }
+
+        .whatsapp-button img {
+            width: 80px;
+            height: 80px;
+            margin-top: 8px;
+            margin-left: 8px;
+        }
+
+
+
+     
